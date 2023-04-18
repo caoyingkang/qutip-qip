@@ -1286,7 +1286,7 @@ class Model:
 
     Parameters
     ----------
-    num_The number of qubits
+    num_qubits : int, optional
         The number of qubits.
     dims : list, optional
         The dimension of each component system.
@@ -1296,7 +1296,7 @@ class Model:
 
     Attributes
     ----------
-    num_The number of qubits
+    num_qubits : int, optional
         The number of qubits.
     dims : list, optional
         The dimension of each component system.
