@@ -223,7 +223,7 @@ class Processor(object):
             (or subquantum system of other dimensions).
         cyclic_permutation : bool, optional
             If true, the Hamiltonian will be added for all qubits,
-            e.g. if ``targets=[0,1]``, and there are 2 qubits,
+            e.g. if ``targets=[0,1]``, and there are 3 qubits,
             The Hamiltonian will be added to the target qubits
             ``[0,1]``, ``[1,2]`` and ``[2,0]``.
         """
@@ -253,7 +253,7 @@ class Processor(object):
 
         cyclic_permutation : bool, optional
             If true, the Hamiltonian will be added for all qubits,
-            e.g. if ``targets=[0,1]``, and there are 2 qubits,
+            e.g. if ``targets=[0,1]``, and there are 3 qubits,
             the Hamiltonian will be added to the target qubits
             ``[0,1]``, ``[1,2]`` and ``[2,0]``.
 
